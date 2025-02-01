@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"com.eru.Counter"
+		],
+		"client": [
+			"com.eru.CounterClient"
 		]
 	},
 	"mixins": [

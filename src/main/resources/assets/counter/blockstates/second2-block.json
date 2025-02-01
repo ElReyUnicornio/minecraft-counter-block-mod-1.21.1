@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "counter:block/second2-block"
+    }
+  }
+}
