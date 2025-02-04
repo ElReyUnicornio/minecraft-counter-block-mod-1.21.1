@@ -1,8 +1,8 @@
-package com.eru;
+package com.counterMod;
 
-import com.eru.block.ModBlocks;
-import com.eru.command.ModCommands;
-import com.eru.network.ModNetwork;
+import com.counterMod.block.ModBlocks;
+import com.counterMod.command.ModCommands;
+import com.counterMod.network.ModNetwork;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

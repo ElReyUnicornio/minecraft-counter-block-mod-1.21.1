@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.eru.Counter"
+			"com.counterMod.Counter"
 		],
 		"client": [
-			"com.eru.CounterClient"
+			"com.counterMod.CounterClient"
 		]
 	},
 	"mixins": [

@@ -1,4 +1,4 @@
-package com.eru.network;
+package com.counterMod.network;
 
 import io.netty.buffer.ByteBuf;
 import net.minecraft.network.PacketByteBuf;
@@ -20,7 +20,7 @@ public record TimerPayload(int time) implements CustomPayload {
         public Integer decode(ByteBuf byteBuf) {
             return new PacketByteBuf(byteBuf).readInt();
         }
-    };;
+    };
 
     public static final PacketCodec<RegistryByteBuf, TimerPayload> CODEC = PacketCodec.tuple(PACKET_CODEC, TimerPayload::time, TimerPayload::new);
 

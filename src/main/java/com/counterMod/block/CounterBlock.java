@@ -1,4 +1,4 @@
-package com.eru.block;
+package com.counterMod.block;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;

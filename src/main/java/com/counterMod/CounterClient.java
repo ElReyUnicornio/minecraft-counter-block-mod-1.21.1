@@ -1,8 +1,8 @@
-package com.eru;
+package com.counterMod;
 
-import com.eru.block.ModBlocks;
-import com.eru.client.CounterBlockEntityRenderer;
-import com.eru.client.TimerUpdate;
+import com.counterMod.block.ModBlocks;
+import com.counterMod.client.CounterBlockEntityRenderer;
+import com.counterMod.client.TimerUpdate;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -36,7 +36,7 @@ public class CounterClient implements ClientModInitializer {
     }
 
     public static void setTimer(int seconds) {
-        if (timerSeconds < 1) return;
+        if (seconds < 0) return;
         timerSeconds = seconds;
     }
 

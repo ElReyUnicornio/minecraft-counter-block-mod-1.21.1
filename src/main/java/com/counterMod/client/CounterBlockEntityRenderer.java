@@ -1,7 +1,7 @@
-package com.eru.client;
+package com.counterMod.client;
 
-import com.eru.CounterClient;
-import com.eru.block.CounterBlockEntity;
+import com.counterMod.CounterClient;
+import com.counterMod.block.CounterBlockEntity;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.font.TextRenderer;

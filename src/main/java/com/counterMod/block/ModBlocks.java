@@ -1,6 +1,6 @@
-package com.eru.block;
+package com.counterMod.block;
 
-import com.eru.Counter;
+import com.counterMod.Counter;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.item.BlockItem;

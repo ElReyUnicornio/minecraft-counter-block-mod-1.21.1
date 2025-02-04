@@ -1,6 +1,6 @@
-package com.eru.client;
+package com.counterMod.client;
 
-import com.eru.CounterClient;
+import com.counterMod.CounterClient;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;

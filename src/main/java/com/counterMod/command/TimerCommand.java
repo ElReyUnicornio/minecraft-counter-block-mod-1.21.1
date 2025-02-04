@@ -1,6 +1,6 @@
-package com.eru.command;
+package com.counterMod.command;
 
-import com.eru.network.TimerPayload;
+import com.counterMod.network.TimerPayload;
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
